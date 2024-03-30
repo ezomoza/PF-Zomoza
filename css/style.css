@@ -27,7 +27,7 @@
   color: #fff;
 }
 
-#sobreMi {
+.sobreMi {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -46,6 +46,45 @@
   height: 10rem;
   width: 10rem;
   border-radius: 50%;
+}
+
+.title-left {
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.title-left:before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  bottom: -12px;
+}
+
+#footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  box-shadow: 0px -6px 10px -4px rgba(0, 0, 0, 0.5);
+}
+
+.socials li a i {
+  color: #000;
+  transition: 0.4s;
+}
+
+.socials li a i:hover {
+  transform: translate(0, -0.2em);
+}
+
+.footerLink {
+  text-decoration: none;
+  color: #000;
 }
 
 /* RESET */
@@ -92,7 +131,7 @@
 }
 
 .nav-link {
-  color: #fff;
+  color: #000;
   font-size: 1.3rem;
   font-weight: bold;
   margin-right: 2rem;
@@ -102,46 +141,27 @@
   color: #000;
 }
 
-#footer {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  background: #fff;
-  box-shadow: 0px -6px 10px -4px rgba(0, 0, 0, 0.5);
-}
-
-.socials li a i {
-  color: #000;
-  transition: 0.4s;
-}
-
-.socials li a i:hover {
-  transform: translate(0, -0.2em);
-}
-
-.footerLink {
-  text-decoration: none;
-  color: #000;
-}
-
-/* Define a transition duration during page visits */
-html.is-changing .transition-fade {
-  transition: opacity 0.25s;
+.transition-fade {
+  transition: 1s;
   opacity: 1;
 }
 
-/* Define the styles for the unloaded pages */
+html.is-changing .transition-fade {
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+
 html.is-animating .transition-fade {
   opacity: 0;
 }
 
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 100px;
-  left: 500px;
+.box-shadow-full {
+  padding: 3rem 1.25rem;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 /*# sourceMappingURL=style.css.map */
