@@ -2,7 +2,6 @@
   @include defaultSection;
   margin: 6rem 0 5rem;
 }
-
 .work-box {
   margin-bottom: 2rem;
   -webkit-backface-visibility: hidden;
@@ -10,12 +9,10 @@
   background-color: #fff;
   box-shadow: 0 13px 8px -10px rgba(0,0,0,0.1);
 }
-
 .work-box:hover img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }
-
 .work-img {
   display: block;
   overflow: hidden;
@@ -23,21 +20,16 @@
     transition: all 1s;
   }
 }
-
-
 .work-content {
   padding: 1rem 3% 1rem 4%;
 }
-
 .work-content .w-more {
   color: #4e4e4e;
   font-size: .8rem;
 }
-
 .work-content .w-more .w-ctegory {
   color: $bg-secondary;
 }
-
 .work-content .w-like {
   font-size: 2.5rem;
   color: $bg-secondary;
@@ -47,34 +39,27 @@
       margin-right: 0.5rem;
     }
 }
-
 .work-content .w-like a {
   color: $bg-secondary;
 }
-
 .work-content .w-like .num-like {
   font-size: .7rem;
 }
-
 .w-title {
   font-size: 1.2rem;
 }
-
 .title-a {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
 }
-
 .subtitle-a {
   margin-top: 2rem;
   color: #4e4e4e;
 }
-
 .fa-plus-square-o {
   transition: all 0.3s ease;
 }
-
 .fa-plus-square-o:hover {
   color: #000;
   transform: scale(1.1);

@@ -2,7 +2,6 @@
   @include defaultSection;
   padding-bottom: 1rem;
 }
-
 #estudios {
   height: 100vh;
   h3 {
@@ -13,7 +12,6 @@
     background-color: $bg-secondary;
   }
 }
-
 .container-info {
   display: flex;
   justify-content: start;
@@ -29,7 +27,6 @@
     box-shadow: 0 1px 4px 1px rgba(0,0,0,0.5);
   }
 }
-
 .title-left {
   font-size: 2rem;
   font-weight: bold;
@@ -37,7 +34,6 @@
   margin-bottom: 2rem;
   line-height: 1.2;
 }
-
 .title-left:before {
   content: '';
   position: absolute;
@@ -47,7 +43,6 @@
   width: 100px;
   bottom: -12px;
 }
-
 .title-s {
   font-weight: 600;
   color: #1e1e1e;
