@@ -5,18 +5,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
-.container-sobremi {
-  display: flex;
-  justify-content: left;
-  align-items: end;
 
+.container-info {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.about-img {
+  display: flex;
+  justify-content: center;
 }
 .about-img img {
   height: 10rem;
   width: 10rem;
   border-radius: 50%;
+  box-shadow: 0 1px 4px 1px rgba(0,0,0,0.5);
 }
 
 .title-left {
@@ -32,6 +36,24 @@
   position: absolute;
   height: 3px;
   background-color: #0078ff;
+  opacity: 0.5;
   width: 100px;
   bottom: -12px;
 }
+
+.title-s {
+  font-weight: 600;
+  color: #1e1e1e;
+  font-size: 1.1rem;
+}
+.pull-right {
+  float: right;
+}
+.skill-mf .progress {
+  background-color: #cde1f8;
+  margin: .1rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+

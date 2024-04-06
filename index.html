@@ -4,11 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="description" content="Como desarrollador web apasionado, estoy aquí para llevar tus ideas al mundo digital. Desde la creación de sitios web a medida hasta el desarrollo de aplicaciones personalizadas, mi objetivo es hacer que tu presencia en línea destaque. Contáctame hoy y trabajemos juntos para convertir tu visión en realidad en la web.">
+  <meta name="keywords" content="Desarrollo web, diseño web, desarrollo de aplicaciones, diseño de sitios, desarrollo de tiendas en línea, SEO, marketing digital, mantenimiento web, seguridad web">
   <link rel="shortcut icon" href="../img/programmer.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
 
+  <!-- REMIX ICONS -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
 
   <!-- KIT FONT AWESOME -->
@@ -16,6 +17,7 @@
 
   <!-- Bootstrap icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
 
   <!-- BOOTSTRAP -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -24,14 +26,14 @@
   <!-- CSS PRINCIPAL -->
   <link rel="stylesheet" href="./css/style.css" />
 
-  <title>Portfolio EmaDev-Deign</title>
+  <title>Portfolio EmaDev-Design</title>
 </head>
 
-<body id="swup" class="transition-fade">
+<body id="swup" class="transition-fade bodyBg">
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html"><span>E</span>ma Web Design</a>
+      <a class="navbar-brand" href="./index.html"><span>E</span>maDeV-Design</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -48,10 +50,10 @@
             <a class="nav-link" href="./pages/proyectos.html">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Servicios</a>
+            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
           </li>
         </ul>
       </div>
@@ -59,64 +61,49 @@
   </nav>
 
   <!-- HERO -->
+  <div class="hero">
+    <div class="d-flex flex-column justify-content-center w-100 h-100">
 
-    <div  class="hero">
-      <div class="d-flex flex-column justify-content-center w-100 h-100">
-
-        <div class="d-flex flex-column justify-content-center align-items-center">
-          <h1 class="titulo m-0">Portfolio EmaDesign Dev</h1>
-          <div class="btn-group my-5">
-            <a href="./assets/cv.pdf" target="_blank" class="btn btn-outline-light" aria-current="page"><i
-                class="fas fa-file-download me-2"></i> Descargar CV</a>
-            <a href="https://github.com/ezomoza" target="_blank" class="btn btn-outline-light">Mi GitHub <i
-                class="fab fa-github gith ms-2"></i></a>
-          </div>
-          <h2 class="fw-light text-white m-0"> — Desarrollo web — </h2>
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <h1 class="titulo m-0">Portfolio EmaDev-Design</h1>
+        <div class="btn-group my-5">
+          <a href="./assets/cv.pdf" target="_blank" class="btn btn-outline-light" aria-current="page"><i
+              class="fas fa-file-download me-2"></i> Descargar CV</a>
+          <a href="https://github.com/ezomoza" target="_blank" class="btn btn-outline-light">Mi GitHub <i
+              class="fab fa-github gith ms-2"></i></a>
         </div>
       </div>
     </div>
-
-
-  <!-- <div class="hero">
-    <div class="d-flex flex-column justify-content-center w-100 h-100">
-  
-      <div class="d-flex flex-column justify-content-center align-items-center">
-        <h1 class="titulo m-0">Portfolio EmaDesign Dev</h1>
-        <div class="btn-group my-5">
-          <a href="./assets/cv.pdf" target="_blank" class="btn btn-outline-light" aria-current="page"><i class="fas fa-file-download me-2"></i> Descargar CV</a>
-          <a href="https://github.com/ezomoza" target="_blank" class="btn btn-outline-light">Mi GitHub <i class="fab fa-github gith ms-2"></i></a>
-        </div> 
-          <h2 class="fw-light text-white m-0"> — Desarrollo web — </h2>
-      </div>
-    </div>
   </div>
-   -->
-
-
 
   <!-- INICIO FOOTER -->
   <footer id="footer" class="pt-5 pb-4">
     <div class="container text-center">
       <div class="row text-center">
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h5 class="text-uppercase mb-4 font-weight-bold">EmaDev-Design</h5>
-          <p>Diseño web innovador y funcional para destacar tu presencia online. Transformamos ideas en experiencias
+          <h2 class="subtitle-line noSpace">EmaDev-Design</h2>
+          <p class="containerContents">Diseño web innovador y funcional para destacar tu presencia online. Transformamos
+            ideas en experiencias
             visuales cautivadoras.</p>
         </div>
 
         <div class="col-md-4 col-lg-2 col-xl-3 mx-auto mt-3">
-          <h5 class="text-uppercase mb-4 font-weight-bold">Links</h5>
-          <p><a class="footerLink" href="./pages/sobremi.html">Sobre mi</a></p>
-          <p><a class="footerLink" href="./pages/proyectos.html">Proyectos</a></p>
-          <p><a class="footerLink" href="./pages/servicios.html">Servicios</a></p>
-          <p><a class="footerLink" href="./pages/contacto.html">Contacto</a></p>
+          <h2 class="subtitle-line">Links</h2>
+          <div class="containerContents">
+            <p><a class="footerLink" href="../pages/sobremi.html">Sobre mi</a></p>
+            <p><a class="footerLink" href="../pages/proyectos.html">Proyectos</a></p>
+            <p><a class="footerLink" href="../pages/servicios.html">Servicios</a></p>
+            <p><a class="footerLink" href="../pages/contacto.html">Contacto</a></p>
+          </div>
         </div>
 
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h5 class="text-uppercase mb-4 font-weight-bold">Contacto</h5>
-          <p><i class="fas fa-home mr-3"></i> Buenos aires, Ezeiza</p>
-          <p><i class="fas fa-envelope mr-3"></i> ezomozadev@gmail.com</p>
-          <p><i class="fas fa-phone mr-3"></i> 11 9999 9999</p>
+          <h2 class="subtitle-line">Contacto</h2>
+          <div class="containerContents">
+            <p><i class="fas fa-home mr-3"></i> Buenos aires, Ezeiza</p>
+            <p><i class="fas fa-phone mr-3"></i> 11 9999 9999</p>
+            <p><i class="fas fa-envelope mr-3"></i> ezomozadev@gmail.com</p>
+          </div>
         </div>
       </div>
 
@@ -129,15 +116,12 @@
         <div>
           <div class="text-center">
             <ul class="socials list-unstyled list-unline">
-              <li class="list-inline-item"><a target="_blank" href="https://facebook.com"
-                  class="btn.floating btn-sm text-white"><i class="fab fa-facebook fa-2x face"></i></a></li>
-              <li class="list-inline-item"><a target="_blank" href="https://twitter.com"
-                  class="btn.floating btn-sm text-white"><i class="fab fa-twitter fa-2x twit"></i></a></li>
-              <li class="list-inline-item"><a target="_blank" href="https://google.com/"
-                  class="btn.floating btn-sm text-white"><i class="fab fa-google fa-2x goog"></i></a></li>
-              <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/emanuel-zomoza"
-                  class="btn.floating btn-sm text-white"><i class="fab fa-linkedin-in fa-2x liin"></i></a></li>
-
+              <li class="list-inline-item"><a target="_blank" href="https://facebook.com"><span class="ico-circle"><i
+                      class="ion-social-facebook"></i></span></a></li>
+              <li class="list-inline-item"><a target="_blank" href="https://google.com"><span class="ico-circle"><i class="ri-google-fill"></i></span></a></li>
+              <li class="list-inline-item"><a target="_blank" href="https://twitter.com/"><span class="ico-circle"><i
+                      class="ion-social-twitter"></i></span></a></li>
+              <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/emanuel-zomoza"><span class="ico-circle"><i class="ri-linkedin-fill"></i></span></a></li>
             </ul>
           </div>
         </div>
@@ -157,10 +141,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
     crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/swup@4"></script>
-    <script>
-      const swup = new Swup();
-    </script>
+  <script src="https://unpkg.com/swup@4"></script>
+  <script>
+    const swup = new Swup();
+  </script>
 </body>
 
 </html>

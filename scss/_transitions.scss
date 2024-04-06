@@ -1,0 +1,24 @@
+// PAGE TRANSITIONS
+.transition-fade {
+  transition: 1s;
+  opacity: 1;
+}
+html.is-changing .transition-fade {
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+html.is-animating .transition-fade {
+  opacity: 0;
+}
+
+.transition-nav {
+  transition: 1s;
+  opacity: 1;
+}
+html.is-changing .transition-nav {
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+html.is-animating .transition-nav {
+  opacity: 1;
+}

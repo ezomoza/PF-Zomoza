@@ -4,8 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Como desarrollador web apasionado, estoy aquí para llevar tus ideas al mundo digital. Desde la creación de sitios web a medida hasta el desarrollo de aplicaciones personalizadas, mi objetivo es hacer que tu presencia en línea destaque. Contáctame hoy y trabajemos juntos para convertir tu visión en realidad en la web.">
-  <meta name="keywords" content="Desarrollo web, diseño web, desarrollo de aplicaciones, diseño de sitios, desarrollo de tiendas en línea, SEO, marketing digital, mantenimiento web, seguridad web">
+  <meta name="description"
+    content="Como desarrollador web apasionado, estoy aquí para llevar tus ideas al mundo digital. Desde la creación de sitios web a medida hasta el desarrollo de aplicaciones personalizadas, mi objetivo es hacer que tu presencia en línea destaque. Contáctame hoy y trabajemos juntos para convertir tu visión en realidad en la web.">
+  <meta name="keywords"
+    content="Desarrollo web, diseño web, desarrollo de aplicaciones, diseño de sitios, desarrollo de tiendas en línea, SEO, marketing digital, mantenimiento web, seguridad web">
   <link rel="shortcut icon" href="../img/programmer.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
 
@@ -44,13 +46,13 @@
             <a class="nav-link" href="../index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./sobremi.html">Sobre mi</a>
+            <a class="nav-link" href="../pages/sobremi.html">Sobre mi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./proyectos.html">Proyectos</a>
+            <a class="nav-link" href="../pages/proyectos.html">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./servicios.html">Servicios</a>
+            <a class="nav-link" href="../pages/servicios.html">Servicios</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./contacto.html">Contacto</a>
@@ -60,81 +62,86 @@
     </div>
   </nav>
 
-  <!-- SOBRE MI -->
-  <section class="sobreMi" >
-        <div class="container-sobremi">
-          <div class="container">
-            <div class="col-sm-12">
-              <div class="box-shadow-full">
-                <div class="row ">
-                  <div class="col-md-6 px-5">
-                    <div class="row mb-3">
-                      <div class="col-sm-6 col-md-5">
-                        <div class="about-img">
-                          <img src="../assets/perfil2.jpg" alt="Perfil">
-                        </div>
-                      </div>
-                      <div class="container-info col-sm-6 col-md-7">
-                        <div class="sobremi-info">
-                          <p><span class="title-s">Nombre: </span> <span>Emanuel Zomoza</span></p>
-                          <p><span class="title-s">Perfil: </span> <span>Full stack developer</span></p>
-                          <p><span class="title-s">Email: </span> <span>ezomozadev@gmail.com</span></p>
-                          <p><span class="title-s">Tel: </span> <span>(617) 557-0089</span></p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="skill-mf">
-                      <p class="title-s">Habilidades Tecnicas</p>
-                      <span>HTML</span> <span class="pull-right">85%</span>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
-                          aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                      <span>CSS3</span> <span class="pull-right">85%</span>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
-                          aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                      <span>JAVASCRIPT</span> <span class="pull-right">15%</span>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15"
-                          aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                      <span>SASS</span> <span class="pull-right">50%</span>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50"
-                          aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                      <span>BOOTSTRAP</span> <span class="pull-right">50%</span>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50"
-                          aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                    </div>
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="centrarForm col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Enviame un mensaje
+                    </h5>
                   </div>
-                  <div class="col-md-6 px-5">
-                    <div class="about-me pt-4 pt-md-0">
-                      <div class="title-box-2">
-                        <h5 class="title-left">
-                          Sobre mi
-                        </h5>
+                  <div>
+                    <form class="contactForm">
+                      <div id="sendmessage">Tu mensaje fue enviado!</div>
+                      <div id="errormessage"></div>
+                      <div class="row">
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre"
+                              data-rule="minlen:4" data-msg="Por lo menos engresar 4 caracteres" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Tu email"
+                              data-rule="email" data-msg="Ingresar un email valido" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Tema"
+                              data-rule="minlen:4" data-msg="Ingresar por lo menos 8 caracteres" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" data-rule="required"
+                              data-msg="Porfavor escribir un mensaje" placeholder="Mensaje"></textarea>
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <button class="button button-a button-big button-rouded">Enviar</button>
+                        </div>
                       </div>
-                      <p class="lead">
-                        ¡Bienvenido a mi perfil! Soy un apasionado aspirante a Desarrollador Frontend, listo para sumergirme en el emocionante mundo de la creación de interfaces web cautivadoras. Mi misión es fusionar creatividad y funcionalidad para ofrecer experiencias de usuario excepcionales. 
-                      </p>
-                      <p class="lead">
-                        Con habilidades incipientes en HTML, CSS y JavaScript, estoy ansioso por aprender y contribuir a proyectos innovadores mientras perfecciono mis destrezas. 
-                      </p>
-                      <p class="lead">
-                        Mi enfoque es claro: abrazar nuevos desafíos, colaborar eficazmente y transformar ideas en realidad visual. ¡Embárquese conmigo en este viaje de crecimiento y descubrimiento en el fascinante universo del desarrollo Frontend!.
-                      </p>
-                    </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="centrarForm col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                      Ponte en contacto
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead">
+                      Estoy aquí para escuchar tus ideas, responder tus preguntas y ayudarte a convertirlas en realidad.
+                      Ya sea que necesites asesoramiento, un presupuesto personalizado o simplemente quieras charlar
+                      sobre posibilidades. No dudes en ponerte en contacto conmigo hoy mismo y hacer realidad tu visión
+                      en la web.
+                    </p>
+                    <ul class="list-ico">
+                      <li><span class="ion-ios-location"></span> Buenos Aires, Ezeiza</li>
+                      <li><span class="ion-ios-telephone"></span> (11) 557-0089</li>
+                      <li><span class="ion-email"></span> ezomozadev@gmail.com</li>
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
   </section>
 
   <!-- INICIO FOOTER -->
