@@ -37,6 +37,18 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 9rem;
+  padding-bottom: 1rem;
+}
+
+#estudios {
+  height: 100vh;
+}
+#estudios h3 {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0078ff;
 }
 
 .container-info {
@@ -208,6 +220,10 @@
   position: relative;
   margin-bottom: 2rem;
   line-height: 1.2;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

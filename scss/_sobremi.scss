@@ -1,5 +1,17 @@
 .sobreMi {
   @include defaultSection;
+  padding-bottom: 1rem;
+}
+
+#estudios {
+  height: 100vh;
+  h3 {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg-secondary;
+  }
 }
 
 .container-info {
@@ -17,7 +29,6 @@
     box-shadow: 0 1px 4px 1px rgba(0,0,0,0.5);
   }
 }
-
 
 .title-left {
   font-size: 2rem;
