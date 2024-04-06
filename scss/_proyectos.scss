@@ -1,10 +1,5 @@
 #proyectos {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include defaultSection;
   margin: 6rem 0 5rem;
 }
 
@@ -24,11 +19,11 @@
 .work-img {
   display: block;
   overflow: hidden;
+    img {
+    transition: all 1s;
+  }
 }
 
-.work-img img {
-  transition: all 1s;
-}
 
 .work-content {
   padding: 1rem 3% 1rem 4%;
@@ -40,12 +35,12 @@
 }
 
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: $bg-secondary;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #0078ff;
+  color: $bg-secondary;
   float: right;
     span {
       font-size: 1.5rem;
@@ -54,7 +49,7 @@
 }
 
 .work-content .w-like a {
-  color: #0078ff;
+  color: $bg-secondary;
 }
 
 .work-content .w-like .num-like {

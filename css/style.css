@@ -36,6 +36,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 9rem;
 }
 
 .container-info {
@@ -48,7 +49,6 @@
   display: flex;
   justify-content: center;
 }
-
 .about-img img {
   height: 10rem;
   width: 10rem;
@@ -120,6 +120,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 9rem;
   margin: 6rem 0 5rem;
 }
 
@@ -140,7 +141,6 @@
   display: block;
   overflow: hidden;
 }
-
 .work-img img {
   transition: all 1s;
 }
@@ -326,6 +326,7 @@ html.is-animating .transition-nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 9rem;
 }
 
 h1 {
@@ -371,13 +372,11 @@ h1 {
   top: 80px;
   transform: translateY(-50%);
 }
-
 .service-box .service-icon .front-content i {
   font-size: 28px;
   color: #fff;
   font-weight: normal;
 }
-
 .service-box .service-icon .front-content h4 {
   font-size: 15px;
   color: #fff;
@@ -431,40 +430,13 @@ h1 {
   width: 100%;
   height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  padding-bottom: 9rem;
 }
 
 .contact-mf {
   margin-top: 4rem;
-}
-
-#sendmessage {
-  color: #0078ff;
-  border: 1px solid #0078ff;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-.validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
 }
 
 .button {
@@ -527,7 +499,6 @@ h1 {
 .socials {
   padding: 1.5rem 0;
 }
-
 .socials ul li {
   display: inline-block;
 }
@@ -549,19 +520,12 @@ h1 {
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
 }
-
 .socials .ico-circle:hover i {
   color: #fff;
 }
 
-/*------/ Ul resect /------*/
-.ul-resect,
 .socials ul,
-.list-ico,
-.blog-wrapper .post-meta ul,
-.box-comments .list-comments,
-.widget-sidebar .list-sidebar,
-.widget-tags ul {
+.list-ico {
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
@@ -570,7 +534,6 @@ h1 {
 .list-ico {
   line-height: 2;
 }
-
 .list-ico span {
   color: #0078ff;
   margin-right: 10px;
