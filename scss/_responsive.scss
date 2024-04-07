@@ -5,6 +5,12 @@
     background: #fff;
   }
 }
+@media (max-width: 360px) {
+  .titulo {
+    font-size: 2rem;
+  }
+}
+
 
 // SOBRE MI
 @media (max-width: 990px) {
@@ -16,8 +22,17 @@
     justify-content: center;
     align-items: center;
   }
+  .contenedorPerfil {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   #estudios {
     height: 100%;
+    .title-a {
+      font-size: 2rem;
+    }
   }
   .container-info {
     text-align: center;
@@ -37,6 +52,9 @@
 @media (max-width: 990px) {
   #proyectos {
     height: 100%;
+    .title-a {
+      font-size: 2rem;
+    }
   }
 }
 
@@ -45,6 +63,9 @@
   #servicios {
     margin: 4rem 0;
     height: 100%;
+    .title-a {
+      font-size: 2rem;
+    }
   }
 }
 
